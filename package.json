@@ -1,0 +1,16 @@
+{
+  "name": "test-resquest-travis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter progress test"
+  },
+  "author": "Alexandre Ribeiro",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.16.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
