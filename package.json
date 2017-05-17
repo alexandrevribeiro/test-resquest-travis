@@ -8,11 +8,9 @@
   },
   "author": "Alexandre Ribeiro",
   "license": "MIT",
-  "devDependencies": {
-    "axios": "^0.16.1",
+  "devDependencies": {    
     "chai": "^3.5.0",
     "mocha": "^3.4.1",
-    "request": "^2.81.0",
-    "whatwg-fetch": "^2.0.3"
+    "request": "^2.81.0"
   }
 }
