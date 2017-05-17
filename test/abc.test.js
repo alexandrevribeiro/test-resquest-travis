@@ -9,8 +9,6 @@ describe('Trying to simulate error occurring only on travis.', function () {
                 expect(response.data).to.contains('<html');
                 done();
             })
-            .catch(function (error) {
-                console.error(error);
-            });        
+            .catch(done);        
     });
 });
